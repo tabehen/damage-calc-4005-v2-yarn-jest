@@ -1,6 +1,7 @@
 # damage-calc
 このモジュールでは、ダメージ計算を行うことができます。  
 ダメージ計算には
+[![CircleCI](https://circleci.com/gh/tabehen/damage-calc-4005-v2-yarn-jest/tree/master.svg?style=svg)](https://circleci.com/gh/tabehen/damage-calc-4005-v2-yarn-jest/tree/master)
 
 - ダメージ
 - 防御
@@ -36,3 +37,5 @@ console.log(dc.effectiveDamage(100, 50, 30));
 実効ダメージは、 100 * (1 - (1 / 6)) であり、 
 計算すると 83.33333... となり、
 小数点以下の四捨五入の結果、実効ダメージの 83 の値が得られます。
+
+
